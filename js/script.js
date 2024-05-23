@@ -1,8 +1,15 @@
 let miBoton = document.getElementById("miBoton");
+<<<<<<< HEAD
 let imagen1 = document.getElementById("img");
 let imagen2 = document.getElementById("img2");
 let boton = document.getElementById("boton");
 let alternar = false; // Inicialmente, imagen1 está visible
+=======
+let imagen1 = document.getElementById("img1");
+let imagen2 = document.getElementById("img2");
+let boton = document.getElementById("boton");
+let alternar = true; // Inicialmente, imagen1 está visible
+>>>>>>> a5615a270a09f63c7ab2f4e5a2d2c22b8bc88073
 
 miBoton.addEventListener("click", function (){
     let entradaUsuario = prompt("Introduce una frase?");

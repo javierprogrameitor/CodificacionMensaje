@@ -1,8 +1,52 @@
-body{
+body {
     background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Courier New', Courier, monospace; /* Cambia la fuente a una más original */
+    color: gold;
 }
 
-h2{
-    color: gold
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
 }
 
+    
+#img1 {
+  
+    display: block; 
+    border-radius: 30px;
+    max-width: 100%;/* Esta imagen se mostrará al cargar la página */
+}
+
+#img2 {
+   
+    display: none; 
+    border-radius: 30px;
+    max-width: 100%;/* Esta imagen se ocultará al cargar la página */
+}
+
+
+h2 {
+    font-size: 2em;
+}
+
+button {
+    background-color: gold;
+    color: rebeccapurple;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
